@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #87CEEB; /* Sky blue color reminiscent of Smurfs */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading Styling */
+h1 {
+    color: #FFFFFF; /* White color */
+    text-shadow: 2px 2px 5px #000000; /* Shadow for depth */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Game Container */
+#game-container {
+    background-color: #FFFFFF; /* White background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #000000; /* Soft shadow */
+    text-align: center;
+    width: 300px;
+}
+
+/* Result Area Styling */
+#result-area {
+    background-color: #ADD8E6; /* Light blue background */
+    border: 2px solid #1E90FF; /* Dodger blue border */
+    color: #1E90FF; /* Text color */
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Input Field Styling */
+#num-area {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #1E90FF;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+#button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button Styling */
+button {
+    background-color: #1E90FF; /* Dodger blue background */
+    color: #FFFFFF; /* White text */
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover State */
+button:hover {
+    background-color: #4169E1; /* Royal blue when hovered */
+}
+
+/* Active State */
+button:active {
+    background-color: #000080; /* Navy blue when pressed */
+}
+
+/* Disabled State */
+button:disabled {
+    background-color: #B0C4DE; /* Light steel blue for disabled */
+    color: #FFFFFF; /* Keep text white */
+    cursor: not-allowed; /* Change cursor to indicate disabled */
+    opacity: 0.6; /* Slightly transparent to show it's disabled */
+}
